@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643029146122' stop='1643029158947'>
+    <name>The SwagLabs E commerce site</name>
+    <title>The SwagLabs E commerce site</title>
+    <test-cases>
+        <test-case start='1643029146301' status='passed' stop='1643029158946'>
+            <name>user has to buy an item in the site</name>
+            <title>user has to buy an item in the site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643029146339' status='passed' stop='1643029149621'>
+                    <name>Given user is on login page of SWAGLABS</name>
+                    <title>Given user is on login page of SWAGLABS</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029149616' status='passed' stop='1643029149616'>
+                            <name>user is on login page</name>
+                            <title>user is on login page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029149621' status='passed' stop='1643029150399'>
+                    <name>When user login with his username and secret_sauce</name>
+                    <title>When user login with his username and secret_sauce</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029149982' status='passed' stop='1643029149982'>
+                            <name>User entered standard_user</name>
+                            <title>User entered standard_user</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029150182' status='passed' stop='1643029150182'>
+                            <name>User entered secret_sauce</name>
+                            <title>User entered secret_sauce</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029150398' status='passed' stop='1643029150398'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029150399' status='passed' stop='1643029150536'>
+                    <name>And user is on shopping page and add an item to cart</name>
+                    <title>And user is on shopping page and add an item to cart</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029150535' status='passed' stop='1643029150535'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029150537' status='passed' stop='1643029150887'>
+                    <name>And user clicks on cart and checkout</name>
+                    <title>And user clicks on cart and checkout</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029150708' status='passed' stop='1643029150708'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029150886' status='passed' stop='1643029150886'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029150888' status='passed' stop='1643029152669'>
+                    <name>And user filled his smith and steve and 54789</name>
+                    <title>And user filled his smith and steve and 54789</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029151402' status='passed' stop='1643029151402'>
+                            <name>User entered smith</name>
+                            <title>User entered smith</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029151656' status='passed' stop='1643029151656'>
+                            <name>User entered steve</name>
+                            <title>User entered steve</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029152668' status='passed' stop='1643029152668'>
+                            <name>User entered 54789</name>
+                            <title>User entered 54789</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029152670' status='passed' stop='1643029153568'>
+                    <name>And user checked his order and finish the order</name>
+                    <title>And user checked his order and finish the order</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029152882' status='passed' stop='1643029152882'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643029153567' status='passed' stop='1643029153567'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643029153568' status='passed' stop='1643029158942'>
+                    <name>Then user should see the THANK YOU FOR YOUR ORDER</name>
+                    <title>Then user should see the THANK YOU FOR YOUR ORDER</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643029153939' status='passed' stop='1643029153939'>
+                            <name>checking [object Promise] with THANK YOU FOR YOUR ORDER </name>
+                            <title>checking [object Promise] with THANK YOU FOR YOUR ORDER </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

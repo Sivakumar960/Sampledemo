@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "The SwagLabs E commerce site",
+    "children" : [ {
+      "name" : "user has to buy an item in the site",
+      "uid" : "bb13aa2045db11e6",
+      "parentUid" : "4443609dd8792b3baad5ab3a1bf414dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643028402760,
+        "stop" : 1643028412922,
+        "duration" : 10162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "4443609dd8792b3baad5ab3a1bf414dc"
+  } ]
+}

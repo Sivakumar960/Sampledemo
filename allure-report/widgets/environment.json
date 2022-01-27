@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "CHROME" ],
+  "name" : "BROWSER"
+}, {
+  "values" : [ "win32" ],
+  "name" : "Platform"
+} ]
