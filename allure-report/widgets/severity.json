@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3025cc5c7c001d1e",
+  "name" : "user is new to this site and have to register as a new user",
+  "time" : {
+    "start" : 1643633861071,
+    "stop" : 1643633861179,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a04fcf4b71a8df",
+  "name" : "User want to enter data from json file",
+  "time" : {
+    "start" : 1643633861086,
+    "stop" : 1643633875189,
+    "duration" : 14103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f518f90742214a",
+  "name" : "user has to buy an item in the site",
+  "time" : {
+    "start" : 1643633861199,
+    "stop" : 1643633877861,
+    "duration" : 16662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

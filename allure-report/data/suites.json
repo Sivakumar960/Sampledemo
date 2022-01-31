@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Registering a new user into the Mercury Tours",
+    "children" : [ {
+      "name" : "user is new to this site and have to register as a new user",
+      "uid" : "3025cc5c7c001d1e",
+      "parentUid" : "991014960499c2749b9edb30dcb36207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643633861071,
+        "stop" : 1643633861179,
+        "duration" : 108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "991014960499c2749b9edb30dcb36207"
+  }, {
+    "name" : "To test the form using json file data",
+    "children" : [ {
+      "name" : "User want to enter data from json file",
+      "uid" : "3a04fcf4b71a8df",
+      "parentUid" : "0dc1103681d1085c92b099c0be2c97f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643633861086,
+        "stop" : 1643633875189,
+        "duration" : 14103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "0dc1103681d1085c92b099c0be2c97f8"
+  }, {
+    "name" : "The SwagLabs E commerce site",
+    "children" : [ {
+      "name" : "user has to buy an item in the site",
+      "uid" : "5f518f90742214a",
+      "parentUid" : "5114dd09230ac9a93d1817904ac54e23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643633861199,
+        "stop" : 1643633877861,
+        "duration" : 16662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "5114dd09230ac9a93d1817904ac54e23"
+  } ]
+}

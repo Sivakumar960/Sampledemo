@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 31 18:27:41 IST 2022","Mon Jan 31 18:27:57 IST 2022","16662","","The SwagLabs E commerce site","","The SwagLabs E commerce site","user has to buy an item in the site","user has to buy an item in the site",""
+"passed","Mon Jan 31 18:27:41 IST 2022","Mon Jan 31 18:27:41 IST 2022","108","","Registering a new user into the Mercury Tours","","Registering a new user into the Mercury Tours","user is new to this site and have to register as a new user","user is new to this site and have to register as a new user",""
+"passed","Mon Jan 31 18:27:41 IST 2022","Mon Jan 31 18:27:55 IST 2022","14103","","To test the form using json file data","","To test the form using json file data","User want to enter data from json file","User want to enter data from json file",""

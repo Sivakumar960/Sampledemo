@@ -1,0 +1,102 @@
+{
+  "uid" : "3a04fcf4b71a8df",
+  "name" : "User want to enter data from json file",
+  "fullName" : "To test the form using json file data.User want to enter data from json file",
+  "historyId" : "8afd940b67a90550e8a4b13fc53326f9",
+  "time" : {
+    "start" : 1643633861086,
+    "stop" : 1643633875189,
+    "duration" : 14103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given User is on Home page of practice form",
+      "time" : {
+        "start" : 1643633861111,
+        "stop" : 1643633872860,
+        "duration" : 11749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When user given the required details",
+      "time" : {
+        "start" : 1643633872861,
+        "stop" : 1643633875186,
+        "duration" : 2325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the form using json file data"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the form using json file data"
+  }, {
+    "name" : "testMethod",
+    "value" : "User want to enter data from json file"
+  }, {
+    "name" : "package",
+    "value" : "To test the form using json file data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a04fcf4b71a8df.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}
