@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643624150709' stop='1643624187194'>
+    <name>To test the form using json file data</name>
+    <title>To test the form using json file data</title>
+    <test-cases>
+        <test-case start='1643624150742' status='passed' stop='1643624187191'>
+            <name>User want to enter data from json file</name>
+            <title>User want to enter data from json file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643624150751' status='passed' stop='1643624186176'>
+                    <name>Given User is on Home page of practice form</name>
+                    <title>Given User is on Home page of practice form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643624186176' status='passed' stop='1643624187190'>
+                    <name>When user given the required details</name>
+                    <title>When user given the required details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

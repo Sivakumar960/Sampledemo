@@ -1,0 +1,169 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643624775526' stop='1643624787160'>
+    <name>The SwagLabs E commerce site</name>
+    <title>The SwagLabs E commerce site</title>
+    <test-cases>
+        <test-case start='1643624775580' status='passed' stop='1643624787159'>
+            <name>user has to buy an item in the site</name>
+            <title>user has to buy an item in the site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643624775585' status='passed' stop='1643624779161'>
+                    <name>Given user is on login page of SWAGLABS</name>
+                    <title>Given user is on login page of SWAGLABS</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1643624779158' status='passed' stop='1643624779158'>
+                            <name>user is on login page</name>
+                            <title>user is on login page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624779161' status='passed' stop='1643624780105'>
+                    <name>When user login with his username and secret_sauce</name>
+                    <title>When user login with his username and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='47e8a16d-518e-47b2-8c0b-ed5038f6f31a-attachment.png' type='image/png' size='47606'/>
+                        <attachment title='Screenshot' source='61e62e78-1b75-4c82-9d31-c434483a19af-attachment.png' type='image/png' size='46496'/>
+                        <attachment title='Screenshot' source='224483ec-9381-4ff9-8148-5622f8ae7cb4-attachment.png' type='image/png' size='57940'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624779352' status='passed' stop='1643624779352'>
+                            <name>User entered standard_user</name>
+                            <title>User entered standard_user</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624779620' status='passed' stop='1643624779620'>
+                            <name>User entered secret_sauce</name>
+                            <title>User entered secret_sauce</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624779963' status='passed' stop='1643624779963'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624780105' status='passed' stop='1643624780297'>
+                    <name>And user is on shopping page and add an item to cart</name>
+                    <title>And user is on shopping page and add an item to cart</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2234c46c-de5e-4af2-a942-a5f6adb7ee6d-attachment.png' type='image/png' size='58573'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624780176' status='passed' stop='1643624780176'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624780297' status='passed' stop='1643624780741'>
+                    <name>And user clicks on cart and checkout</name>
+                    <title>And user clicks on cart and checkout</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2d112223-ed12-4c44-b511-b1741b882f7c-attachment.png' type='image/png' size='29592'/>
+                        <attachment title='Screenshot' source='04106fb5-ebf5-4dbb-ac8f-ec92054d2c91-attachment.png' type='image/png' size='16987'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624780390' status='passed' stop='1643624780390'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624780625' status='passed' stop='1643624780625'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624780741' status='passed' stop='1643624781476'>
+                    <name>And user filled his smith and steve and 54789</name>
+                    <title>And user filled his smith and steve and 54789</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c062b30d-a757-4221-9258-43dc4760e19c-attachment.png' type='image/png' size='16277'/>
+                        <attachment title='Screenshot' source='d3103433-2bee-4da6-ac37-86e90182e98c-attachment.png' type='image/png' size='15857'/>
+                        <attachment title='Screenshot' source='b4341ade-3e0b-46cd-b630-2ba7ef660958-attachment.png' type='image/png' size='14689'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624780875' status='passed' stop='1643624780875'>
+                            <name>User entered smith</name>
+                            <title>User entered smith</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624781114' status='passed' stop='1643624781114'>
+                            <name>User entered steve</name>
+                            <title>User entered steve</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624781385' status='passed' stop='1643624781385'>
+                            <name>User entered 54789</name>
+                            <title>User entered 54789</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624781476' status='passed' stop='1643624782006'>
+                    <name>And user checked his order and finish the order</name>
+                    <title>And user checked his order and finish the order</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='461b8e93-a7bd-41ec-9203-bf1f49f36036-attachment.png' type='image/png' size='36130'/>
+                        <attachment title='Screenshot' source='b935f3df-eb57-4f9c-9856-ff70afe40557-attachment.png' type='image/png' size='21097'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624781704' status='passed' stop='1643624781704'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1643624781892' status='passed' stop='1643624781892'>
+                            <name>user clicked on [object Promise]</name>
+                            <title>user clicked on [object Promise]</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643624782006' status='passed' stop='1643624787157'>
+                    <name>Then user should see the THANK YOU FOR YOUR ORDER</name>
+                    <title>Then user should see the THANK YOU FOR YOUR ORDER</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='72d99531-e952-45b0-b0e2-d3578f5e93c4-attachment.png' type='image/png' size='27598'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643624782049' status='passed' stop='1643624782049'>
+                            <name>checking [object Promise] with THANK YOU FOR YOUR ORDER </name>
+                            <title>checking [object Promise] with THANK YOU FOR YOUR ORDER </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
