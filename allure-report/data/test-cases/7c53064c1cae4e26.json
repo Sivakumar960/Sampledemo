@@ -1,5 +1,5 @@
 {
-  "uid" : "5f518f90742214a",
+  "uid" : "7c53064c1cae4e26",
   "name" : "user has to buy an item in the site",
   "fullName" : "The SwagLabs E commerce site.user has to buy an item in the site",
   "historyId" : "7ab7cfa9f7896e1021b0e5d19e161493",
@@ -39,17 +39,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 1,
+      "hasContent" : true
     }, {
       "name" : "When user login with his username and secret_sauce",
       "time" : {
@@ -69,10 +69,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered secret_sauce",
         "time" : {
@@ -84,10 +84,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
@@ -99,35 +99,35 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "38923657231cab66",
+        "uid" : "fab9c1972116861f",
         "name" : "Screenshot",
-        "source" : "38923657231cab66.png",
+        "source" : "fab9c1972116861f.png",
         "type" : "image/png",
         "size" : 48739
       }, {
-        "uid" : "2c9ae7a37ad3850a",
+        "uid" : "f6c49de537f65cd9",
         "name" : "Screenshot",
-        "source" : "2c9ae7a37ad3850a.png",
+        "source" : "f6c49de537f65cd9.png",
         "type" : "image/png",
         "size" : 47564
       }, {
-        "uid" : "6e520b3cd86dbba2",
+        "uid" : "3048b83468ab82a2",
         "name" : "Screenshot",
-        "source" : "6e520b3cd86dbba2.png",
+        "source" : "3048b83468ab82a2.png",
         "type" : "image/png",
         "size" : 222937
       } ],
       "parameters" : [ ],
-      "stepsCount" : 3,
-      "hasContent" : true,
+      "attachmentsCount" : 3,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 3
+      "stepsCount" : 3,
+      "hasContent" : true
     }, {
       "name" : "And user is on shopping page and add an item to cart",
       "time" : {
@@ -147,23 +147,23 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "283faf6d1e6cb726",
+        "uid" : "c8d09d071ade67ce",
         "name" : "Screenshot",
-        "source" : "283faf6d1e6cb726.png",
+        "source" : "c8d09d071ade67ce.png",
         "type" : "image/png",
         "size" : 340165
       } ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "stepsCount" : 1,
+      "hasContent" : true
     }, {
       "name" : "And user clicks on cart and checkout",
       "time" : {
@@ -183,10 +183,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
@@ -198,29 +198,29 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "7901cf2f7276cde4",
+        "uid" : "67884a076606ce1e",
         "name" : "Screenshot",
-        "source" : "7901cf2f7276cde4.png",
+        "source" : "67884a076606ce1e.png",
         "type" : "image/png",
         "size" : 36030
       }, {
-        "uid" : "f0185d0f4d1b2389",
+        "uid" : "cfc792ca75129442",
         "name" : "Screenshot",
-        "source" : "f0185d0f4d1b2389.png",
+        "source" : "cfc792ca75129442.png",
         "type" : "image/png",
         "size" : 21716
       } ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
+      "attachmentsCount" : 2,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 2
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "And user filled his smith and steve and 54789",
       "time" : {
@@ -240,10 +240,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered steve",
         "time" : {
@@ -255,10 +255,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered 54789",
         "time" : {
@@ -270,35 +270,35 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "9a712ef42a0b6642",
+        "uid" : "f6f9cdd6fab30e92",
         "name" : "Screenshot",
-        "source" : "9a712ef42a0b6642.png",
+        "source" : "f6f9cdd6fab30e92.png",
         "type" : "image/png",
         "size" : 21321
       }, {
-        "uid" : "da62e38616b90025",
+        "uid" : "8da8e59d5cb16865",
         "name" : "Screenshot",
-        "source" : "da62e38616b90025.png",
+        "source" : "8da8e59d5cb16865.png",
         "type" : "image/png",
         "size" : 21100
       }, {
-        "uid" : "2e53ac8de04f5cb9",
+        "uid" : "7a4725cbe3c28545",
         "name" : "Screenshot",
-        "source" : "2e53ac8de04f5cb9.png",
+        "source" : "7a4725cbe3c28545.png",
         "type" : "image/png",
         "size" : 20110
       } ],
       "parameters" : [ ],
-      "stepsCount" : 3,
-      "hasContent" : true,
+      "attachmentsCount" : 3,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 3
+      "stepsCount" : 3,
+      "hasContent" : true
     }, {
       "name" : "And user checked his order and finish the order",
       "time" : {
@@ -318,10 +318,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
@@ -333,29 +333,29 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "3fff615b13449a33",
+        "uid" : "583992aa382ee48a",
         "name" : "Screenshot",
-        "source" : "3fff615b13449a33.png",
+        "source" : "583992aa382ee48a.png",
         "type" : "image/png",
         "size" : 32760
       }, {
-        "uid" : "138c045b13b41eb7",
+        "uid" : "5cd3c356acf9db61",
         "name" : "Screenshot",
-        "source" : "138c045b13b41eb7.png",
+        "source" : "5cd3c356acf9db61.png",
         "type" : "image/png",
         "size" : 68443
       } ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
+      "attachmentsCount" : 2,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 2
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "Then user should see the THANK YOU FOR YOUR ORDER",
       "time" : {
@@ -375,30 +375,30 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "b3c6f125974834ea",
+        "uid" : "c8b55e9a093c926e",
         "name" : "Screenshot",
-        "source" : "b3c6f125974834ea.png",
+        "source" : "c8b55e9a093c926e.png",
         "type" : "image/png",
         "size" : 68443
       } ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
+      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 20,
-    "hasContent" : true,
+    "attachmentsCount" : 12,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 12
+    "stepsCount" : 20,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -431,14 +431,12 @@
     "value" : "chrome-97.0.4692.99"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f518f90742214a.json",
+  "source" : "7c53064c1cae4e26.json",
   "parameterValues" : [ "chrome-97.0.4692.99" ]
 }

@@ -1,30 +1,60 @@
 [ {
-  "uid" : "5f518f90742214a",
-  "name" : "user has to buy an item in the site",
+  "uid" : "442c3157c3d6df72",
+  "name" : "User wants to register in the sie",
   "time" : {
-    "start" : 1643633861199,
-    "stop" : 1643633877861,
-    "duration" : 16662
+    "start" : 1643700545618,
+    "stop" : 1643700594366,
+    "duration" : 48748
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3025cc5c7c001d1e",
-  "name" : "user is new to this site and have to register as a new user",
-  "time" : {
-    "start" : 1643633861071,
-    "stop" : 1643633861179,
-    "duration" : 108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a04fcf4b71a8df",
+  "uid" : "380f4045797aee88",
   "name" : "User want to enter data from json file",
   "time" : {
-    "start" : 1643633861086,
-    "stop" : 1643633875189,
-    "duration" : 14103
+    "start" : 1643700543350,
+    "stop" : 1643700586654,
+    "duration" : 43304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e837c229a2a0cd91",
+  "name" : "user has to buy an item in the site",
+  "time" : {
+    "start" : 1643700544595,
+    "stop" : 1643700579833,
+    "duration" : 35238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df4b3a95a2b0ca60",
+  "name" : "user is new to this site and have to register as a new user",
+  "time" : {
+    "start" : 1643700545120,
+    "stop" : 1643700545247,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55a9b53b9e5ead70",
+  "name" : "user wants to check multiple environments",
+  "time" : {
+    "start" : 1643700543955,
+    "stop" : 1643700580293,
+    "duration" : 36338
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e5052defd1ac3",
+  "name" : "User wants to login the site",
+  "time" : {
+    "start" : 1643700594366,
+    "stop" : 1643700612180,
+    "duration" : 17814
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643700468583' stop='1643700473918'>
+    <name>To test the form using json file data</name>
+    <title>To test the form using json file data</title>
+    <test-cases>
+        <test-case start='1643700468668' status='broken' stop='1643700473909'>
+            <name>User want to enter data from json file</name>
+            <title>User want to enter data from json file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643700468754' status='broken' stop='1643700473909'>
+                    <name>Given User is on Home page of practice form</name>
+                    <title>Given User is on Home page of practice form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='04a7d0e9-d818-4a93-8989-b3af3c3eef94-attachment.png' type='image/png' size='14879'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: net::ERR_INTERNET_DISCONNECTED</message>
+                <stack-trace>unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=97.0.4692.99)
+                Backtrace:
+                	Ordinal0 [0x00ABFDC3+2555331]
+                	Ordinal0 [0x00A577F1+2127857]
+                	Ordinal0 [0x00952E08+1060360]
+                	Ordinal0 [0x0094F9B1+1046961]
+                	Ordinal0 [0x009459BD+1006013]
+                	Ordinal0 [0x009465D0+1009104]
+                	Ordinal0 [0x00945C1E+1006622]
+                	Ordinal0 [0x0094527D+1004157]
+                	Ordinal0 [0x009443FA+1000442]
+                	Ordinal0 [0x009446B6+1001142]
+                	Ordinal0 [0x009543FA+1065978]
+                	Ordinal0 [0x009A7BAD+1407917]
+                	Ordinal0 [0x00997B0C+1342220]
+                	Ordinal0 [0x009A75FA+1406458]
+                	Ordinal0 [0x00997976+1341814]
+                	Ordinal0 [0x009736B6+1193654]
+                	Ordinal0 [0x00974546+1197382]
+                	GetHandleVerifier [0x00C59622+1619522]
+                	GetHandleVerifier [0x00D0882C+2336844]
+                	GetHandleVerifier [0x00B523E1+541697]
+                	GetHandleVerifier [0x00B51443+537699]
+                	Ordinal0 [0x00A5D18E+2150798]
+                	Ordinal0 [0x00A61518+2168088]
+                	Ordinal0 [0x00A61660+2168416]
+                	Ordinal0 [0x00A6B330+2208560]
+                	BaseThreadInitThunk [0x7644FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x771F7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x771F7A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

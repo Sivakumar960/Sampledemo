@@ -1,0 +1,115 @@
+{
+  "uid" : "e8ff799ca8750120",
+  "name" : "user is new to this site and have to register as a new user",
+  "fullName" : "Registering a new user into the Mercury Tours.user is new to this site and have to register as a new user",
+  "historyId" : "471e5214872fa49e80f3d981783c673d",
+  "time" : {
+    "start" : 1643633861071,
+    "stop" : 1643633861179,
+    "duration" : 108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on home page",
+      "time" : {
+        "start" : 1643633861077,
+        "stop" : 1643633861124,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When user is on registeration page",
+      "time" : {
+        "start" : 1643633861125,
+        "stop" : 1643633861150,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then display the title of page",
+      "time" : {
+        "start" : 1643633861151,
+        "stop" : 1643633861176,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Registering a new user into the Mercury Tours"
+  }, {
+    "name" : "testClass",
+    "value" : "Registering a new user into the Mercury Tours"
+  }, {
+    "name" : "testMethod",
+    "value" : "user is new to this site and have to register as a new user"
+  }, {
+    "name" : "package",
+    "value" : "Registering a new user into the Mercury Tours"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8ff799ca8750120.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

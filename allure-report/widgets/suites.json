@@ -1,15 +1,26 @@
 {
-  "total" : 3,
+  "total" : 5,
   "items" : [ {
-    "uid" : "991014960499c2749b9edb30dcb36207",
-    "name" : "Registering a new user into the Mercury Tours",
+    "uid" : "5261ce057765af3780198973c1626407",
+    "name" : "Testing multiple environments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bba7f02889c7a621226e953ff5c9d53e",
+    "name" : "User want to test demotours",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
     "uid" : "0dc1103681d1085c92b099c0be2c97f8",
@@ -25,6 +36,17 @@
   }, {
     "uid" : "5114dd09230ac9a93d1817904ac54e23",
     "name" : "The SwagLabs E commerce site",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "991014960499c2749b9edb30dcb36207",
+    "name" : "Registering a new user into the Mercury Tours",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

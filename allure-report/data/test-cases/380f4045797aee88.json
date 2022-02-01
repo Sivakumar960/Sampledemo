@@ -1,12 +1,12 @@
 {
-  "uid" : "3a04fcf4b71a8df",
+  "uid" : "380f4045797aee88",
   "name" : "User want to enter data from json file",
   "fullName" : "To test the form using json file data.User want to enter data from json file",
   "historyId" : "8afd940b67a90550e8a4b13fc53326f9",
   "time" : {
-    "start" : 1643633861086,
-    "stop" : 1643633875189,
-    "duration" : 14103
+    "start" : 1643700543350,
+    "stop" : 1643700586654,
+    "duration" : 43304
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,48 +15,48 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
-  "retriesStatusChange" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Given User is on Home page of practice form",
       "time" : {
-        "start" : 1643633861111,
-        "stop" : 1643633872860,
-        "duration" : 11749
+        "start" : 1643700543373,
+        "stop" : 1643700579058,
+        "duration" : 35685
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "When user given the required details",
       "time" : {
-        "start" : 1643633872861,
-        "stop" : 1643633875186,
-        "duration" : 2325
+        "start" : 1643700579058,
+        "stop" : 1643700586651,
+        "duration" : 7593
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
-    "hasContent" : true,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 2,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +67,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-3"
   }, {
     "name" : "suite",
     "value" : "To test the form using json file data"
@@ -93,10 +93,27 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "c19f0db694515471",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_INTERNET_DISCONNECTED",
+      "time" : {
+        "start" : 1643700468668,
+        "stop" : 1643700473909,
+        "duration" : 5241
+      }
+    }, {
+      "uid" : "fa80c299e16a58c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643633861086,
+        "stop" : 1643633875189,
+        "duration" : 14103
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a04fcf4b71a8df.json",
+  "source" : "380f4045797aee88.json",
   "parameterValues" : [ "chrome-97.0.4692.99" ]
 }

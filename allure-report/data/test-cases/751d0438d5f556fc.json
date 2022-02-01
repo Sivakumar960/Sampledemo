@@ -1,0 +1,96 @@
+{
+  "uid" : "751d0438d5f556fc",
+  "name" : "user wants to check multiple environments",
+  "fullName" : "Testing multiple environments.user wants to check multiple environments",
+  "historyId" : "7eb834c6ea5cd327f5165cf84abb99a5",
+  "time" : {
+    "start" : 1643700468625,
+    "stop" : 1643700506824,
+    "duration" : 38199
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: net::ERR_CONNECTION_REFUSED",
+  "statusTrace" : "unknown error: net::ERR_CONNECTION_REFUSED\n                  (Session info: chrome=97.0.4692.99)\n                Backtrace:\n                \tOrdinal0 [0x00ABFDC3+2555331]\n                \tOrdinal0 [0x00A577F1+2127857]\n                \tOrdinal0 [0x00952E08+1060360]\n                \tOrdinal0 [0x0094F9B1+1046961]\n                \tOrdinal0 [0x009459BD+1006013]\n                \tOrdinal0 [0x009465D0+1009104]\n                \tOrdinal0 [0x00945C1E+1006622]\n                \tOrdinal0 [0x0094527D+1004157]\n                \tOrdinal0 [0x009443FA+1000442]\n                \tOrdinal0 [0x009446B6+1001142]\n                \tOrdinal0 [0x009543FA+1065978]\n                \tOrdinal0 [0x009A7BAD+1407917]\n                \tOrdinal0 [0x00997B0C+1342220]\n                \tOrdinal0 [0x009A75FA+1406458]\n                \tOrdinal0 [0x00997976+1341814]\n                \tOrdinal0 [0x009736B6+1193654]\n                \tOrdinal0 [0x00974546+1197382]\n                \tGetHandleVerifier [0x00C59622+1619522]\n                \tGetHandleVerifier [0x00D0882C+2336844]\n                \tGetHandleVerifier [0x00B523E1+541697]\n                \tGetHandleVerifier [0x00B51443+537699]\n                \tOrdinal0 [0x00A5D18E+2150798]\n                \tOrdinal0 [0x00A61518+2168088]\n                \tOrdinal0 [0x00A61660+2168416]\n                \tOrdinal0 [0x00A6B330+2208560]\n                \tBaseThreadInitThunk [0x7644FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: net::ERR_CONNECTION_REFUSED",
+    "statusTrace" : "unknown error: net::ERR_CONNECTION_REFUSED\n                  (Session info: chrome=97.0.4692.99)\n                Backtrace:\n                \tOrdinal0 [0x00ABFDC3+2555331]\n                \tOrdinal0 [0x00A577F1+2127857]\n                \tOrdinal0 [0x00952E08+1060360]\n                \tOrdinal0 [0x0094F9B1+1046961]\n                \tOrdinal0 [0x009459BD+1006013]\n                \tOrdinal0 [0x009465D0+1009104]\n                \tOrdinal0 [0x00945C1E+1006622]\n                \tOrdinal0 [0x0094527D+1004157]\n                \tOrdinal0 [0x009443FA+1000442]\n                \tOrdinal0 [0x009446B6+1001142]\n                \tOrdinal0 [0x009543FA+1065978]\n                \tOrdinal0 [0x009A7BAD+1407917]\n                \tOrdinal0 [0x00997B0C+1342220]\n                \tOrdinal0 [0x009A75FA+1406458]\n                \tOrdinal0 [0x00997976+1341814]\n                \tOrdinal0 [0x009736B6+1193654]\n                \tOrdinal0 [0x00974546+1197382]\n                \tGetHandleVerifier [0x00C59622+1619522]\n                \tGetHandleVerifier [0x00D0882C+2336844]\n                \tGetHandleVerifier [0x00B523E1+541697]\n                \tGetHandleVerifier [0x00B51443+537699]\n                \tOrdinal0 [0x00A5D18E+2150798]\n                \tOrdinal0 [0x00A61518+2168088]\n                \tOrdinal0 [0x00A61660+2168416]\n                \tOrdinal0 [0x00A6B330+2208560]\n                \tBaseThreadInitThunk [0x7644FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given User opens the url",
+      "time" : {
+        "start" : 1643700468640,
+        "stop" : 1643700506824,
+        "duration" : 38184
+      },
+      "status" : "broken",
+      "statusMessage" : "unknown error: net::ERR_CONNECTION_REFUSED\n                  (Session info: chrome=97.0.4692.99)\n                Backtrace:\n                \tOrdinal0 [0x00ABFDC3+2555331]\n                \tOrdinal0 [0x00A577F1+2127857]\n                \tOrdinal0 [0x00952E08+1060360]\n                \tOrdinal0 [0x0094F9B1+1046961]\n                \tOrdinal0 [0x009459BD+1006013]\n                \tOrdinal0 [0x009465D0+1009104]\n                \tOrdinal0 [0x00945C1E+1006622]\n                \tOrdinal0 [0x0094527D+1004157]\n                \tOrdinal0 [0x009443FA+1000442]\n                \tOrdinal0 [0x009446B6+1001142]\n                \tOrdinal0 [0x009543FA+1065978]\n                \tOrdinal0 [0x009A7BAD+1407917]\n                \tOrdinal0 [0x00997B0C+1342220]\n                \tOrdinal0 [0x009A75FA+1406458]\n                \tOrdinal0 [0x00997976+1341814]\n                \tOrdinal0 [0x009736B6+1193654]\n                \tOrdinal0 [0x00974546+1197382]\n                \tGetHandleVerifier [0x00C59622+1619522]\n                \tGetHandleVerifier [0x00D0882C+2336844]\n                \tGetHandleVerifier [0x00B523E1+541697]\n                \tGetHandleVerifier [0x00B51443+537699]\n                \tOrdinal0 [0x00A5D18E+2150798]\n                \tOrdinal0 [0x00A61518+2168088]\n                \tOrdinal0 [0x00A61660+2168416]\n                \tOrdinal0 [0x00A6B330+2208560]\n                \tBaseThreadInitThunk [0x7644FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x771F7A6E+238]\n                ",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1395defb0f8070",
+        "name" : "Screenshot",
+        "source" : "c1395defb0f8070.png",
+        "type" : "image/png",
+        "size" : 16936
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Testing multiple environments"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing multiple environments"
+  }, {
+    "name" : "testMethod",
+    "value" : "user wants to check multiple environments"
+  }, {
+    "name" : "package",
+    "value" : "Testing multiple environments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "751d0438d5f556fc.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}
