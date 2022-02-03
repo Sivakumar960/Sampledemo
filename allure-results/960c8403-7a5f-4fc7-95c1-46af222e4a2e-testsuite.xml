@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643872086519' stop='1643872144493'>
+    <name>Testing a site</name>
+    <title>Testing a site</title>
+    <test-cases>
+        <test-case start='1643872086548' status='passed' stop='1643872144488'>
+            <name>User want to test a sample site</name>
+            <title>User want to test a sample site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643872086554' status='passed' stop='1643872086564'>
+                    <name>Given user is on login page</name>
+                    <title>Given user is on login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643872086565' status='passed' stop='1643872094458'>
+                    <name>When User enters tomsmith and SuperSecretPassword!</name>
+                    <title>When User enters tomsmith and SuperSecretPassword!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643872094458' status='passed' stop='1643872144483'>
+                    <name>Then User should see the message</name>
+                    <title>Then User should see the message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

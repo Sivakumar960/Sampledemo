@@ -6,7 +6,7 @@ Given(/^user is on login page$/, async ()=> {
 
 When(/^User enters (.+) and (.+)$/, async (username, password)=> {
     try {
-        await $('#usernam').setValue(username)
+        await $('#username').setValue(username)
     } catch (error) {
         throw error
         
@@ -16,6 +16,6 @@ When(/^User enters (.+) and (.+)$/, async (username, password)=> {
 });
 
 Then(/^User should see the message$/, async () =>{
-    await browser.pause(5000)
+    await browser.pause(50000)
     console.log("Success")
 });
