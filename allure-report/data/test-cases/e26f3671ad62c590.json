@@ -1,12 +1,12 @@
 {
-  "uid" : "47836862b95ac196",
+  "uid" : "e26f3671ad62c590",
   "name" : "user is new to this site and have to register as a new user",
   "fullName" : "Registering a new user into the Mercury Tours.user is new to this site and have to register as a new user",
   "historyId" : "471e5214872fa49e80f3d981783c673d",
   "time" : {
-    "start" : 1643867087116,
-    "stop" : 1643867087227,
-    "duration" : 111
+    "start" : 1643872271222,
+    "stop" : 1643872271266,
+    "duration" : 44
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,55 +23,55 @@
     "steps" : [ {
       "name" : "Given user is on home page",
       "time" : {
-        "start" : 1643867087122,
-        "stop" : 1643867087171,
-        "duration" : 49
+        "start" : 1643872271225,
+        "stop" : 1643872271251,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "When user is on registeration page",
       "time" : {
-        "start" : 1643867087177,
-        "stop" : 1643867087214,
-        "duration" : 37
+        "start" : 1643872271252,
+        "stop" : 1643872271258,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Then display the title of page",
       "time" : {
-        "start" : 1643867087214,
-        "stop" : 1643867087224,
-        "duration" : 10
+        "start" : 1643872271259,
+        "stop" : 1643872271264,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -82,7 +82,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-5"
   }, {
     "name" : "suite",
     "value" : "Registering a new user into the Mercury Tours"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "47836862b95ac196.json",
+  "source" : "e26f3671ad62c590.json",
   "parameterValues" : [ "chrome-97.0.4692.99" ]
 }

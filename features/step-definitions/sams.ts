@@ -16,6 +16,6 @@ When(/^User enters (.+) and (.+)$/, async (username, password)=> {
 });
 
 Then(/^User should see the message$/, async () =>{
-    await browser.pause(50000)
+    await browser.pause(5000)
     console.log("Success")
 });

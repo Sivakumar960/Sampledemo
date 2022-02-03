@@ -1,30 +1,70 @@
 [ {
-  "uid" : "5252ed88a681482e",
-  "name" : "User want to enter data from json file",
-  "time" : {
-    "start" : 1643867088170,
-    "stop" : 1643867104400,
-    "duration" : 16230
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b1b161976553a58",
-  "name" : "user has to buy an item in the site",
-  "time" : {
-    "start" : 1643867088999,
-    "stop" : 1643867104845,
-    "duration" : 15846
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47836862b95ac196",
+  "uid" : "e26f3671ad62c590",
   "name" : "user is new to this site and have to register as a new user",
   "time" : {
-    "start" : 1643867087116,
-    "stop" : 1643867087227,
-    "duration" : 111
+    "start" : 1643872271222,
+    "stop" : 1643872271266,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee7616e722002f3",
+  "name" : "user wants to check multiple environments",
+  "time" : {
+    "start" : 1643872236818,
+    "stop" : 1643872264230,
+    "duration" : 27412
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9fadccc3e5a126fb",
+  "name" : "user has to buy an item in the site",
+  "time" : {
+    "start" : 1643872236632,
+    "stop" : 1643872257587,
+    "duration" : 20955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6eedb8a121256b3b",
+  "name" : "User wants to login the site",
+  "time" : {
+    "start" : 1643872266483,
+    "stop" : 1643872279692,
+    "duration" : 13209
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "92762fdebfef2aec",
+  "name" : "User want to test a sample site",
+  "time" : {
+    "start" : 1643872235590,
+    "stop" : 1643872299526,
+    "duration" : 63936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6104783d9e49396c",
+  "name" : "User wants to register in the sie",
+  "time" : {
+    "start" : 1643872234853,
+    "stop" : 1643872266483,
+    "duration" : 31630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abf9e9bbd828b75f",
+  "name" : "User want to enter data from json file",
+  "time" : {
+    "start" : 1643872235448,
+    "stop" : 1643872258274,
+    "duration" : 22826
   },
   "status" : "passed",
   "severity" : "normal"

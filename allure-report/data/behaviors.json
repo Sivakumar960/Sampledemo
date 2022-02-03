@@ -2,14 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "user is new to this site and have to register as a new user",
-    "uid" : "47836862b95ac196",
+    "name" : "User wants to register in the sie",
+    "uid" : "6104783d9e49396c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1643867087116,
-      "stop" : 1643867087227,
-      "duration" : 111
+      "start" : 1643872234853,
+      "stop" : 1643872266483,
+      "duration" : 31630
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +20,30 @@
     "parameters" : [ "chrome-97.0.4692.99" ]
   }, {
     "name" : "User want to enter data from json file",
-    "uid" : "5252ed88a681482e",
+    "uid" : "abf9e9bbd828b75f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1643867088170,
-      "stop" : 1643867104400,
-      "duration" : 16230
+      "start" : 1643872235448,
+      "stop" : 1643872258274,
+      "duration" : 22826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "User want to test a sample site",
+    "uid" : "92762fdebfef2aec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643872235590,
+      "stop" : 1643872299526,
+      "duration" : 63936
     },
     "flaky" : false,
     "newFailed" : false,
@@ -37,13 +54,64 @@
     "parameters" : [ "chrome-97.0.4692.99" ]
   }, {
     "name" : "user has to buy an item in the site",
-    "uid" : "6b1b161976553a58",
+    "uid" : "9fadccc3e5a126fb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1643867088999,
-      "stop" : 1643867104845,
-      "duration" : 15846
+      "start" : 1643872236632,
+      "stop" : 1643872257587,
+      "duration" : 20955
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "user wants to check multiple environments",
+    "uid" : "2ee7616e722002f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1643872236818,
+      "stop" : 1643872264230,
+      "duration" : 27412
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "User wants to login the site",
+    "uid" : "6eedb8a121256b3b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1643872266483,
+      "stop" : 1643872279692,
+      "duration" : 13209
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.99" ]
+  }, {
+    "name" : "user is new to this site and have to register as a new user",
+    "uid" : "e26f3671ad62c590",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643872271222,
+      "stop" : 1643872271266,
+      "duration" : 44
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,0 +1,117 @@
+{
+  "uid" : "6eedb8a121256b3b",
+  "name" : "User wants to login the site",
+  "fullName" : "User want to test demotours.User wants to login the site",
+  "historyId" : "611b7614ee43f4f7b7a6f5a526024570",
+  "time" : {
+    "start" : 1643872266483,
+    "stop" : 1643872279692,
+    "duration" : 13209
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call setValue on element with selector \"//input[@name=\"userName\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"//input[@name=\"userName\"]\" because element wasn't found\n                    at implicitWait (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call setValue on element with selector \"//input[@name=\"userName\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call setValue on element with selector \"//input[@name=\"userName\"]\" because element wasn't found\n                    at implicitWait (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given user is on the login page",
+      "time" : {
+        "start" : 1643872266484,
+        "stop" : 1643872269403,
+        "duration" : 2919
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When user enters login details",
+      "time" : {
+        "start" : 1643872269403,
+        "stop" : 1643872279691,
+        "duration" : 10288
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call setValue on element with selector \"//input[@name=\"userName\"]\" because element wasn't found\n                    at implicitWait (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Test\\Desktop\\NodeJs\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1531f786d1e83de",
+        "name" : "Screenshot",
+        "source" : "b1531f786d1e83de.png",
+        "type" : "image/png",
+        "size" : 107617
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User want to test demotours"
+  }, {
+    "name" : "testClass",
+    "value" : "User want to test demotours"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to login the site"
+  }, {
+    "name" : "package",
+    "value" : "User want to test demotours"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6eedb8a121256b3b.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

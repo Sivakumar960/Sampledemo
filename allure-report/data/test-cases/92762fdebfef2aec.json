@@ -1,12 +1,12 @@
 {
-  "uid" : "5252ed88a681482e",
-  "name" : "User want to enter data from json file",
-  "fullName" : "To test the form using json file data.User want to enter data from json file",
-  "historyId" : "8afd940b67a90550e8a4b13fc53326f9",
+  "uid" : "92762fdebfef2aec",
+  "name" : "User want to test a sample site",
+  "fullName" : "Testing a site.User want to test a sample site",
+  "historyId" : "8d5d21d51c76cfc116ba81b912c45cce",
   "time" : {
-    "start" : 1643867088170,
-    "stop" : 1643867104400,
-    "duration" : 16230
+    "start" : 1643872235590,
+    "stop" : 1643872299526,
+    "duration" : 63936
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,42 +21,57 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given User is on Home page of practice form",
+      "name" : "Given user is on login page",
       "time" : {
-        "start" : 1643867088176,
-        "stop" : 1643867102942,
-        "duration" : 14766
+        "start" : 1643872235598,
+        "stop" : 1643872235628,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "When user given the required details",
+      "name" : "When User enters tomsmith and SuperSecretPassword!",
       "time" : {
-        "start" : 1643867102942,
-        "stop" : 1643867104398,
-        "duration" : 1456
+        "start" : 1643872235629,
+        "stop" : 1643872249502,
+        "duration" : 13873
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then User should see the message",
+      "time" : {
+        "start" : 1643872249503,
+        "stop" : 1643872299521,
+        "duration" : 50018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -70,16 +85,16 @@
     "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "To test the form using json file data"
+    "value" : "Testing a site"
   }, {
     "name" : "testClass",
-    "value" : "To test the form using json file data"
+    "value" : "Testing a site"
   }, {
     "name" : "testMethod",
-    "value" : "User want to enter data from json file"
+    "value" : "User want to test a sample site"
   }, {
     "name" : "package",
-    "value" : "To test the form using json file data"
+    "value" : "Testing a site"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -97,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5252ed88a681482e.json",
+  "source" : "92762fdebfef2aec.json",
   "parameterValues" : [ "chrome-97.0.4692.99" ]
 }

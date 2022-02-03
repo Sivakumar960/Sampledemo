@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643867088053' stop='1643867104402'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643872235378' stop='1643872258276'>
     <name>To test the form using json file data</name>
     <title>To test the form using json file data</title>
     <test-cases>
-        <test-case start='1643867088170' status='passed' stop='1643867104400'>
+        <test-case start='1643872235448' status='passed' stop='1643872258274'>
             <name>User want to enter data from json file</name>
             <title>User want to enter data from json file</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-1'/>
+                <label name='thread' value='0-4'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
@@ -17,13 +17,13 @@
                 <parameter kind='environment-variable' name='Platform' value='win32'/>
             </parameters>
             <steps>
-                <step start='1643867088176' status='passed' stop='1643867102942'>
+                <step start='1643872235455' status='passed' stop='1643872251507'>
                     <name>Given User is on Home page of practice form</name>
                     <title>Given User is on Home page of practice form</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1643867102942' status='passed' stop='1643867104398'>
+                <step start='1643872251508' status='passed' stop='1643872258270'>
                     <name>When user given the required details</name>
                     <title>When user given the required details</title>
                     <attachments/>

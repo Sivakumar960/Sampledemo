@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643867088954' stop='1643867104847'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643872236548' stop='1643872257588'>
     <name>The SwagLabs E commerce site</name>
     <title>The SwagLabs E commerce site</title>
     <test-cases>
-        <test-case start='1643867088999' status='passed' stop='1643867104845'>
+        <test-case start='1643872236632' status='passed' stop='1643872257587'>
             <name>user has to buy an item in the site</name>
             <title>user has to buy an item in the site</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
@@ -17,12 +17,12 @@
                 <parameter kind='environment-variable' name='Platform' value='win32'/>
             </parameters>
             <steps>
-                <step start='1643867089004' status='passed' stop='1643867093212'>
+                <step start='1643872236664' status='passed' stop='1643872242929'>
                     <name>Given user is on login page of SWAGLABS</name>
                     <title>Given user is on login page of SWAGLABS</title>
                     <attachments/>
                     <steps>
-                        <step start='1643867093207' status='passed' stop='1643867093208'>
+                        <step start='1643872242926' status='passed' stop='1643872242926'>
                             <name>user is on login page</name>
                             <title>user is on login page</title>
                             <attachments/>
@@ -30,28 +30,28 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867093213' status='passed' stop='1643867094847'>
+                <step start='1643872242929' status='passed' stop='1643872244536'>
                     <name>When user login with his username and secret_sauce</name>
                     <title>When user login with his username and secret_sauce</title>
                     <attachments>
-                        <attachment title='Screenshot' source='3ba507a8-8c10-4690-a43f-9a813f7b0d2a-attachment.png' type='image/png' size='48739'/>
-                        <attachment title='Screenshot' source='8b503364-4bc7-4bf1-9861-2037772265b4-attachment.png' type='image/png' size='47564'/>
-                        <attachment title='Screenshot' source='bbf4d7df-04ec-4e8a-8d63-a9fa26d6eac7-attachment.png' type='image/png' size='61646'/>
+                        <attachment title='Screenshot' source='a159cf8b-a114-4813-907e-2177ef1fa67f-attachment.png' type='image/png' size='48739'/>
+                        <attachment title='Screenshot' source='888dc369-99bc-42b7-83ae-9f3010c17408-attachment.png' type='image/png' size='47564'/>
+                        <attachment title='Screenshot' source='1bb4c192-b65c-43e5-8fb7-71b8719fb08b-attachment.png' type='image/png' size='61405'/>
                     </attachments>
                     <steps>
-                        <step start='1643867093629' status='passed' stop='1643867093629'>
+                        <step start='1643872243224' status='passed' stop='1643872243224'>
                             <name>User entered standard_user</name>
                             <title>User entered standard_user</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867094115' status='passed' stop='1643867094115'>
+                        <step start='1643872243555' status='passed' stop='1643872243555'>
                             <name>User entered secret_sauce</name>
                             <title>User entered secret_sauce</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867094546' status='passed' stop='1643867094546'>
+                        <step start='1643872244191' status='passed' stop='1643872244191'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
@@ -59,14 +59,14 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867094848' status='passed' stop='1643867095890'>
+                <step start='1643872244537' status='passed' stop='1643872245389'>
                     <name>And user is on shopping page and add an item to cart</name>
                     <title>And user is on shopping page and add an item to cart</title>
                     <attachments>
-                        <attachment title='Screenshot' source='a74b8aab-ef84-4490-a960-de1641c5f6ca-attachment.png' type='image/png' size='106655'/>
+                        <attachment title='Screenshot' source='78d07e7a-0ef9-4688-ba94-45def26c9e4f-attachment.png' type='image/png' size='102774'/>
                     </attachments>
                     <steps>
-                        <step start='1643867095349' status='passed' stop='1643867095350'>
+                        <step start='1643872244660' status='passed' stop='1643872244660'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
@@ -74,21 +74,21 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867095891' status='passed' stop='1643867096584'>
+                <step start='1643872245389' status='passed' stop='1643872246044'>
                     <name>And user clicks on cart and checkout</name>
                     <title>And user clicks on cart and checkout</title>
                     <attachments>
-                        <attachment title='Screenshot' source='f9379255-0300-411d-a9f2-5d6898afd6cd-attachment.png' type='image/png' size='35328'/>
-                        <attachment title='Screenshot' source='410dc5cc-5ae7-4b57-99e2-5818b7d12652-attachment.png' type='image/png' size='21998'/>
+                        <attachment title='Screenshot' source='fc37022e-a4ae-4c93-9dc0-5fe845fa2413-attachment.png' type='image/png' size='34418'/>
+                        <attachment title='Screenshot' source='db6e4c8f-bc62-48a1-be5e-6e5eb6b9280b-attachment.png' type='image/png' size='21998'/>
                     </attachments>
                     <steps>
-                        <step start='1643867096075' status='passed' stop='1643867096075'>
+                        <step start='1643872245532' status='passed' stop='1643872245532'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867096354' status='passed' stop='1643867096354'>
+                        <step start='1643872245844' status='passed' stop='1643872245844'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
@@ -96,28 +96,28 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867096584' status='passed' stop='1643867098596'>
+                <step start='1643872246044' status='passed' stop='1643872247838'>
                     <name>And user filled his smith and steve and 54789</name>
                     <title>And user filled his smith and steve and 54789</title>
                     <attachments>
-                        <attachment title='Screenshot' source='f601c405-b804-447c-b04e-a15dee9f38b0-attachment.png' type='image/png' size='21321'/>
-                        <attachment title='Screenshot' source='ba3f4195-0359-4e84-b0bd-d2345feba34d-attachment.png' type='image/png' size='21100'/>
-                        <attachment title='Screenshot' source='4aad59a5-afb5-4402-9d33-de3c3143562c-attachment.png' type='image/png' size='20110'/>
+                        <attachment title='Screenshot' source='8abd6445-3196-48cf-a69a-999d4af67685-attachment.png' type='image/png' size='21321'/>
+                        <attachment title='Screenshot' source='78748fdf-43af-459f-b258-170fce20711a-attachment.png' type='image/png' size='21100'/>
+                        <attachment title='Screenshot' source='1db5d2b7-6f8a-4fe4-8d86-820eb1a4a733-attachment.png' type='image/png' size='20110'/>
                     </attachments>
                     <steps>
-                        <step start='1643867096821' status='passed' stop='1643867096821'>
+                        <step start='1643872246338' status='passed' stop='1643872246338'>
                             <name>User entered smith</name>
                             <title>User entered smith</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867097168' status='passed' stop='1643867097168'>
+                        <step start='1643872246825' status='passed' stop='1643872246825'>
                             <name>User entered steve</name>
                             <title>User entered steve</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867098436' status='passed' stop='1643867098436'>
+                        <step start='1643872247536' status='passed' stop='1643872247536'>
                             <name>User entered 54789</name>
                             <title>User entered 54789</title>
                             <attachments/>
@@ -125,21 +125,21 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867098596' status='passed' stop='1643867099629'>
+                <step start='1643872247838' status='passed' stop='1643872251939'>
                     <name>And user checked his order and finish the order</name>
                     <title>And user checked his order and finish the order</title>
                     <attachments>
-                        <attachment title='Screenshot' source='bbd26ead-8913-42ba-b833-813868c0d62d-attachment.png' type='image/png' size='32760'/>
-                        <attachment title='Screenshot' source='b17e8bdb-015f-4a8d-bdd5-5c0e6398af31-attachment.png' type='image/png' size='68443'/>
+                        <attachment title='Screenshot' source='03c34849-9bee-4403-be4b-6eac2c500b3d-attachment.png' type='image/png' size='32760'/>
+                        <attachment title='Screenshot' source='0e193a17-2f58-4732-9d3d-9677adea900c-attachment.png' type='image/png' size='68443'/>
                     </attachments>
                     <steps>
-                        <step start='1643867098899' status='passed' stop='1643867098899'>
+                        <step start='1643872248629' status='passed' stop='1643872248629'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
                             <steps/>
                         </step>
-                        <step start='1643867099421' status='passed' stop='1643867099421'>
+                        <step start='1643872251657' status='passed' stop='1643872251657'>
                             <name>user clicked on [object Promise]</name>
                             <title>user clicked on [object Promise]</title>
                             <attachments/>
@@ -147,14 +147,14 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1643867099629' status='passed' stop='1643867104842'>
+                <step start='1643872251939' status='passed' stop='1643872257585'>
                     <name>Then user should see the THANK YOU FOR YOUR ORDER</name>
                     <title>Then user should see the THANK YOU FOR YOUR ORDER</title>
                     <attachments>
-                        <attachment title='Screenshot' source='5c0f4769-eb76-4a18-ac0d-1940fa58276f-attachment.png' type='image/png' size='68443'/>
+                        <attachment title='Screenshot' source='c090b081-c653-49ee-8bbe-a48e6f0e5289-attachment.png' type='image/png' size='68443'/>
                     </attachments>
                     <steps>
-                        <step start='1643867099694' status='passed' stop='1643867099694'>
+                        <step start='1643872252292' status='passed' stop='1643872252292'>
                             <name>checking [object Promise] with THANK YOU FOR YOUR ORDER </name>
                             <title>checking [object Promise] with THANK YOU FOR YOUR ORDER </title>
                             <attachments/>

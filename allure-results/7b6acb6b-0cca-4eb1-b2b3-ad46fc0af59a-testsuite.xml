@@ -1,15 +1,15 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643867087079' stop='1643867087231'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643872271202' stop='1643872271268'>
     <name>Registering a new user into the Mercury Tours</name>
     <title>Registering a new user into the Mercury Tours</title>
     <test-cases>
-        <test-case start='1643867087116' status='passed' stop='1643867087227'>
+        <test-case start='1643872271222' status='passed' stop='1643872271266'>
             <name>user is new to this site and have to register as a new user</name>
             <title>user is new to this site and have to register as a new user</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-2'/>
+                <label name='thread' value='0-5'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
@@ -17,19 +17,19 @@
                 <parameter kind='environment-variable' name='Platform' value='win32'/>
             </parameters>
             <steps>
-                <step start='1643867087122' status='passed' stop='1643867087171'>
+                <step start='1643872271225' status='passed' stop='1643872271251'>
                     <name>Given user is on home page</name>
                     <title>Given user is on home page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1643867087177' status='passed' stop='1643867087214'>
+                <step start='1643872271252' status='passed' stop='1643872271258'>
                     <name>When user is on registeration page</name>
                     <title>When user is on registeration page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1643867087214' status='passed' stop='1643867087224'>
+                <step start='1643872271259' status='passed' stop='1643872271264'>
                     <name>Then display the title of page</name>
                     <title>Then display the title of page</title>
                     <attachments/>

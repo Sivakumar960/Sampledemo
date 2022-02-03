@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643872236775' stop='1643872264240'>
+    <name>Testing multiple environments</name>
+    <title>Testing multiple environments</title>
+    <test-cases>
+        <test-case start='1643872236818' status='broken' stop='1643872264230'>
+            <name>user wants to check multiple environments</name>
+            <title>user wants to check multiple environments</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643872236833' status='broken' stop='1643872264229'>
+                    <name>Given User opens the url</name>
+                    <title>Given User opens the url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='dac24ff2-0a74-419c-84ed-a08047676958-attachment.png' type='image/png' size='16936'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: net::ERR_CONNECTION_REFUSED</message>
+                <stack-trace>unknown error: net::ERR_CONNECTION_REFUSED
+                  (Session info: chrome=97.0.4692.99)
+                Backtrace:
+                	Ordinal0 [0x0101FDC3+2555331]
+                	Ordinal0 [0x00FB77F1+2127857]
+                	Ordinal0 [0x00EB2E08+1060360]
+                	Ordinal0 [0x00EAF9B1+1046961]
+                	Ordinal0 [0x00EA59BD+1006013]
+                	Ordinal0 [0x00EA65D0+1009104]
+                	Ordinal0 [0x00EA5C1E+1006622]
+                	Ordinal0 [0x00EA527D+1004157]
+                	Ordinal0 [0x00EA43FA+1000442]
+                	Ordinal0 [0x00EA46B6+1001142]
+                	Ordinal0 [0x00EB43FA+1065978]
+                	Ordinal0 [0x00F07BAD+1407917]
+                	Ordinal0 [0x00EF7B0C+1342220]
+                	Ordinal0 [0x00F075FA+1406458]
+                	Ordinal0 [0x00EF7976+1341814]
+                	Ordinal0 [0x00ED36B6+1193654]
+                	Ordinal0 [0x00ED4546+1197382]
+                	GetHandleVerifier [0x011B9622+1619522]
+                	GetHandleVerifier [0x0126882C+2336844]
+                	GetHandleVerifier [0x010B23E1+541697]
+                	GetHandleVerifier [0x010B1443+537699]
+                	Ordinal0 [0x00FBD18E+2150798]
+                	Ordinal0 [0x00FC1518+2168088]
+                	Ordinal0 [0x00FC1660+2168416]
+                	Ordinal0 [0x00FCB330+2208560]
+                	BaseThreadInitThunk [0x76C2FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77697A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77697A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -2,16 +2,33 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Registering a new user into the Mercury Tours",
+    "name" : "User want to test demotours",
     "children" : [ {
-      "name" : "user is new to this site and have to register as a new user",
-      "uid" : "47836862b95ac196",
-      "parentUid" : "30ad3cc5765616866884b62c3f1d64e6",
+      "name" : "User wants to register in the sie",
+      "uid" : "6104783d9e49396c",
+      "parentUid" : "ab0f0e5f4321a5b0f3e31df7e60b7a6a",
       "status" : "passed",
       "time" : {
-        "start" : 1643867087116,
-        "stop" : 1643867087227,
-        "duration" : 111
+        "start" : 1643872234853,
+        "stop" : 1643872266483,
+        "duration" : 31630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    }, {
+      "name" : "User wants to login the site",
+      "uid" : "6eedb8a121256b3b",
+      "parentUid" : "ab0f0e5f4321a5b0f3e31df7e60b7a6a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1643872266483,
+        "stop" : 1643872279692,
+        "duration" : 13209
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,18 +38,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-97.0.4692.99" ]
     } ],
-    "uid" : "30ad3cc5765616866884b62c3f1d64e6"
+    "uid" : "ab0f0e5f4321a5b0f3e31df7e60b7a6a"
   }, {
     "name" : "To test the form using json file data",
     "children" : [ {
       "name" : "User want to enter data from json file",
-      "uid" : "5252ed88a681482e",
+      "uid" : "abf9e9bbd828b75f",
       "parentUid" : "800a3876eca2b85ebceb323c774a0b77",
       "status" : "passed",
       "time" : {
-        "start" : 1643867088170,
-        "stop" : 1643867104400,
-        "duration" : 16230
+        "start" : 1643872235448,
+        "stop" : 1643872258274,
+        "duration" : 22826
       },
       "flaky" : false,
       "newFailed" : false,
@@ -44,16 +61,37 @@
     } ],
     "uid" : "800a3876eca2b85ebceb323c774a0b77"
   }, {
+    "name" : "Testing a site",
+    "children" : [ {
+      "name" : "User want to test a sample site",
+      "uid" : "92762fdebfef2aec",
+      "parentUid" : "9f0b73c98ca615a94147eb86a43ee595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643872235590,
+        "stop" : 1643872299526,
+        "duration" : 63936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "9f0b73c98ca615a94147eb86a43ee595"
+  }, {
     "name" : "The SwagLabs E commerce site",
     "children" : [ {
       "name" : "user has to buy an item in the site",
-      "uid" : "6b1b161976553a58",
+      "uid" : "9fadccc3e5a126fb",
       "parentUid" : "4443609dd8792b3baad5ab3a1bf414dc",
       "status" : "passed",
       "time" : {
-        "start" : 1643867088999,
-        "stop" : 1643867104845,
-        "duration" : 15846
+        "start" : 1643872236632,
+        "stop" : 1643872257587,
+        "duration" : 20955
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,5 +102,47 @@
       "parameters" : [ "chrome-97.0.4692.99" ]
     } ],
     "uid" : "4443609dd8792b3baad5ab3a1bf414dc"
+  }, {
+    "name" : "Testing multiple environments",
+    "children" : [ {
+      "name" : "user wants to check multiple environments",
+      "uid" : "2ee7616e722002f3",
+      "parentUid" : "2835562ee3cb9cff748befabda838c42",
+      "status" : "broken",
+      "time" : {
+        "start" : 1643872236818,
+        "stop" : 1643872264230,
+        "duration" : 27412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "2835562ee3cb9cff748befabda838c42"
+  }, {
+    "name" : "Registering a new user into the Mercury Tours",
+    "children" : [ {
+      "name" : "user is new to this site and have to register as a new user",
+      "uid" : "e26f3671ad62c590",
+      "parentUid" : "30ad3cc5765616866884b62c3f1d64e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643872271222,
+        "stop" : 1643872271266,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "30ad3cc5765616866884b62c3f1d64e6"
   } ]
 }

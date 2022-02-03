@@ -1,12 +1,12 @@
 {
-  "uid" : "6b1b161976553a58",
+  "uid" : "9fadccc3e5a126fb",
   "name" : "user has to buy an item in the site",
   "fullName" : "The SwagLabs E commerce site.user has to buy an item in the site",
   "historyId" : "7ab7cfa9f7896e1021b0e5d19e161493",
   "time" : {
-    "start" : 1643867088999,
-    "stop" : 1643867104845,
-    "duration" : 15846
+    "start" : 1643872236632,
+    "stop" : 1643872257587,
+    "duration" : 20955
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,382 +23,382 @@
     "steps" : [ {
       "name" : "Given user is on login page of SWAGLABS",
       "time" : {
-        "start" : 1643867089004,
-        "stop" : 1643867093212,
-        "duration" : 4208
+        "start" : 1643872236664,
+        "stop" : 1643872242929,
+        "duration" : 6265
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "user is on login page",
         "time" : {
-          "start" : 1643867093207,
-          "stop" : 1643867093208,
-          "duration" : 1
+          "start" : 1643872242926,
+          "stop" : 1643872242926,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
     }, {
       "name" : "When user login with his username and secret_sauce",
       "time" : {
-        "start" : 1643867093213,
-        "stop" : 1643867094847,
-        "duration" : 1634
+        "start" : 1643872242929,
+        "stop" : 1643872244536,
+        "duration" : 1607
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "User entered standard_user",
         "time" : {
-          "start" : 1643867093629,
-          "stop" : 1643867093629,
+          "start" : 1643872243224,
+          "stop" : 1643872243224,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered secret_sauce",
         "time" : {
-          "start" : 1643867094115,
-          "stop" : 1643867094115,
+          "start" : 1643872243555,
+          "stop" : 1643872243555,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867094546,
-          "stop" : 1643867094546,
+          "start" : 1643872244191,
+          "stop" : 1643872244191,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "4b58be9bacd5019e",
+        "uid" : "532673cc3994fb1f",
         "name" : "Screenshot",
-        "source" : "4b58be9bacd5019e.png",
+        "source" : "532673cc3994fb1f.png",
         "type" : "image/png",
         "size" : 48739
       }, {
-        "uid" : "e8428a36388d0258",
+        "uid" : "3908a5f8f7014027",
         "name" : "Screenshot",
-        "source" : "e8428a36388d0258.png",
+        "source" : "3908a5f8f7014027.png",
         "type" : "image/png",
         "size" : 47564
       }, {
-        "uid" : "addc33e32f33575a",
+        "uid" : "272c7cb968c7a3fc",
         "name" : "Screenshot",
-        "source" : "addc33e32f33575a.png",
+        "source" : "272c7cb968c7a3fc.png",
         "type" : "image/png",
-        "size" : 61646
+        "size" : 61405
       } ],
       "parameters" : [ ],
-      "stepsCount" : 3,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 3
+      "attachmentsCount" : 3,
+      "stepsCount" : 3,
+      "hasContent" : true
     }, {
       "name" : "And user is on shopping page and add an item to cart",
       "time" : {
-        "start" : 1643867094848,
-        "stop" : 1643867095890,
-        "duration" : 1042
+        "start" : 1643872244537,
+        "stop" : 1643872245389,
+        "duration" : 852
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867095349,
-          "stop" : 1643867095350,
-          "duration" : 1
+          "start" : 1643872244660,
+          "stop" : 1643872244660,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "a15ee624c3bdf7d8",
+        "uid" : "d5e41a8d34e8ae00",
         "name" : "Screenshot",
-        "source" : "a15ee624c3bdf7d8.png",
+        "source" : "d5e41a8d34e8ae00.png",
         "type" : "image/png",
-        "size" : 106655
+        "size" : 102774
       } ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
     }, {
       "name" : "And user clicks on cart and checkout",
       "time" : {
-        "start" : 1643867095891,
-        "stop" : 1643867096584,
-        "duration" : 693
+        "start" : 1643872245389,
+        "stop" : 1643872246044,
+        "duration" : 655
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867096075,
-          "stop" : 1643867096075,
+          "start" : 1643872245532,
+          "stop" : 1643872245532,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867096354,
-          "stop" : 1643867096354,
+          "start" : 1643872245844,
+          "stop" : 1643872245844,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "1a84bdbc6a399a10",
+        "uid" : "f3c5601e596f3d9",
         "name" : "Screenshot",
-        "source" : "1a84bdbc6a399a10.png",
+        "source" : "f3c5601e596f3d9.png",
         "type" : "image/png",
-        "size" : 35328
+        "size" : 34418
       }, {
-        "uid" : "122580e0cedc8756",
+        "uid" : "98089964cf647dfc",
         "name" : "Screenshot",
-        "source" : "122580e0cedc8756.png",
+        "source" : "98089964cf647dfc.png",
         "type" : "image/png",
         "size" : 21998
       } ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 2
+      "attachmentsCount" : 2,
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "And user filled his smith and steve and 54789",
       "time" : {
-        "start" : 1643867096584,
-        "stop" : 1643867098596,
-        "duration" : 2012
+        "start" : 1643872246044,
+        "stop" : 1643872247838,
+        "duration" : 1794
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "User entered smith",
         "time" : {
-          "start" : 1643867096821,
-          "stop" : 1643867096821,
+          "start" : 1643872246338,
+          "stop" : 1643872246338,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered steve",
         "time" : {
-          "start" : 1643867097168,
-          "stop" : 1643867097168,
+          "start" : 1643872246825,
+          "stop" : 1643872246825,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "User entered 54789",
         "time" : {
-          "start" : 1643867098436,
-          "stop" : 1643867098436,
+          "start" : 1643872247536,
+          "stop" : 1643872247536,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "ec281f9c74db52f6",
+        "uid" : "36a248a851421ad2",
         "name" : "Screenshot",
-        "source" : "ec281f9c74db52f6.png",
+        "source" : "36a248a851421ad2.png",
         "type" : "image/png",
         "size" : 21321
       }, {
-        "uid" : "8345d72219e6e21a",
+        "uid" : "968531bbf6c09f21",
         "name" : "Screenshot",
-        "source" : "8345d72219e6e21a.png",
+        "source" : "968531bbf6c09f21.png",
         "type" : "image/png",
         "size" : 21100
       }, {
-        "uid" : "4e33267432a094e4",
+        "uid" : "55bfcc11cabd0805",
         "name" : "Screenshot",
-        "source" : "4e33267432a094e4.png",
+        "source" : "55bfcc11cabd0805.png",
         "type" : "image/png",
         "size" : 20110
       } ],
       "parameters" : [ ],
-      "stepsCount" : 3,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 3
+      "attachmentsCount" : 3,
+      "stepsCount" : 3,
+      "hasContent" : true
     }, {
       "name" : "And user checked his order and finish the order",
       "time" : {
-        "start" : 1643867098596,
-        "stop" : 1643867099629,
-        "duration" : 1033
+        "start" : 1643872247838,
+        "stop" : 1643872251939,
+        "duration" : 4101
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867098899,
-          "stop" : 1643867098899,
+          "start" : 1643872248629,
+          "stop" : 1643872248629,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
         "name" : "user clicked on [object Promise]",
         "time" : {
-          "start" : 1643867099421,
-          "stop" : 1643867099421,
+          "start" : 1643872251657,
+          "stop" : 1643872251657,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "6451a8bfa97e884d",
+        "uid" : "e45d962cfc341bb8",
         "name" : "Screenshot",
-        "source" : "6451a8bfa97e884d.png",
+        "source" : "e45d962cfc341bb8.png",
         "type" : "image/png",
         "size" : 32760
       }, {
-        "uid" : "5c6722d3f99e8437",
+        "uid" : "41544e5fcc15c68",
         "name" : "Screenshot",
-        "source" : "5c6722d3f99e8437.png",
+        "source" : "41544e5fcc15c68.png",
         "type" : "image/png",
         "size" : 68443
       } ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 2
+      "attachmentsCount" : 2,
+      "stepsCount" : 2,
+      "hasContent" : true
     }, {
       "name" : "Then user should see the THANK YOU FOR YOUR ORDER",
       "time" : {
-        "start" : 1643867099629,
-        "stop" : 1643867104842,
-        "duration" : 5213
+        "start" : 1643872251939,
+        "stop" : 1643872257585,
+        "duration" : 5646
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "checking [object Promise] with THANK YOU FOR YOUR ORDER ",
         "time" : {
-          "start" : 1643867099694,
-          "stop" : 1643867099694,
+          "start" : 1643872252292,
+          "stop" : 1643872252292,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "a88dd53d32793100",
+        "uid" : "74584aaa42a2a96",
         "name" : "Screenshot",
-        "source" : "a88dd53d32793100.png",
+        "source" : "74584aaa42a2a96.png",
         "type" : "image/png",
         "size" : 68443
       } ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 20,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 12
+    "attachmentsCount" : 12,
+    "stepsCount" : 20,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -409,7 +409,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-3"
   }, {
     "name" : "suite",
     "value" : "The SwagLabs E commerce site"
@@ -439,6 +439,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b1b161976553a58.json",
+  "source" : "9fadccc3e5a126fb.json",
   "parameterValues" : [ "chrome-97.0.4692.99" ]
 }
