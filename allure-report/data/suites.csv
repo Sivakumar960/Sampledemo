@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Feb 03 12:41:06 IST 2022","Thu Feb 03 12:41:19 IST 2022","13209","","User want to test demotours","","User want to test demotours","User wants to login the site","User wants to login the site",""
-"passed","Thu Feb 03 12:40:35 IST 2022","Thu Feb 03 12:40:58 IST 2022","22826","","To test the form using json file data","","To test the form using json file data","User want to enter data from json file","User want to enter data from json file",""
-"passed","Thu Feb 03 12:40:35 IST 2022","Thu Feb 03 12:41:39 IST 2022","63936","","Testing a site","","Testing a site","User want to test a sample site","User want to test a sample site",""
-"passed","Thu Feb 03 12:41:11 IST 2022","Thu Feb 03 12:41:11 IST 2022","44","","Registering a new user into the Mercury Tours","","Registering a new user into the Mercury Tours","user is new to this site and have to register as a new user","user is new to this site and have to register as a new user",""
-"broken","Thu Feb 03 12:40:36 IST 2022","Thu Feb 03 12:41:04 IST 2022","27412","","Testing multiple environments","","Testing multiple environments","user wants to check multiple environments","user wants to check multiple environments",""
-"passed","Thu Feb 03 12:40:36 IST 2022","Thu Feb 03 12:40:57 IST 2022","20955","","The SwagLabs E commerce site","","The SwagLabs E commerce site","user has to buy an item in the site","user has to buy an item in the site",""
-"passed","Thu Feb 03 12:40:34 IST 2022","Thu Feb 03 12:41:06 IST 2022","31630","","User want to test demotours","","User want to test demotours","User wants to register in the sie","User wants to register in the sie",""
