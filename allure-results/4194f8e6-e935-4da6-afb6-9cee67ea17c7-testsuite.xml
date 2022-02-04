@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643879435718' stop='1643879452822'>
+    <name>To use the toolsqa demo website</name>
+    <title>To use the toolsqa demo website</title>
+    <test-cases>
+        <test-case start='1643879435740' status='broken' stop='1643879452803'>
+            <name>user want to test the toolsqa practice form</name>
+            <title>user want to test the toolsqa practice form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643879435743' status='passed' stop='1643879442286'>
+                    <name>Given User is on toolsqa page</name>
+                    <title>Given User is on toolsqa page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643879442287' status='broken' stop='1643879452803'>
+                    <name>When uer enters his details</name>
+                    <title>When uer enters his details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a58fadbf-d183-430b-a622-0de9baf2e268-attachment.png' type='image/png' size='177121'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643879452803' status='canceled' stop='1643879452818'>
+                    <name>Then user should see the success message</name>
+                    <title>Then user should see the success message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "lastName" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "lastName" because element wasn't found
+                    at implicitWait (C:\Users\Test\Desktop\NodeJs\Automation\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Test\Desktop\NodeJs\Automation\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Test\Desktop\NodeJs\Automation\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

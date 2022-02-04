@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643881437409' stop='1643881446041'>
+    <name>To use the toolsqa demo website</name>
+    <title>To use the toolsqa demo website</title>
+    <test-cases>
+        <test-case start='1643881437445' status='passed' stop='1643881446038'>
+            <name>user want to test the toolsqa practice form</name>
+            <title>user want to test the toolsqa practice form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1643881437449' status='passed' stop='1643881445222'>
+                    <name>Given User is on toolsqa page</name>
+                    <title>Given User is on toolsqa page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643881445222' status='passed' stop='1643881446003'>
+                    <name>When uer enters his details</name>
+                    <title>When uer enters his details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643881446003' status='canceled' stop='1643881446036'>
+                    <name>Then user should see the success message</name>
+                    <title>Then user should see the success message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
