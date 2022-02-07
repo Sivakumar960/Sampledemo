@@ -11,7 +11,6 @@ class CartPage {
 
     gettingsite(){
         return this.site
-        
     }
 
     async giving_username(user_name:config.STANDARDUSER){

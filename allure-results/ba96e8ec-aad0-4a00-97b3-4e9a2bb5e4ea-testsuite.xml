@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644224592909' stop='1644224601514'>
+    <name>Registering a new user into the Mercury Tours</name>
+    <title>Registering a new user into the Mercury Tours</title>
+    <test-cases>
+        <test-case start='1644224592935' status='broken' stop='1644224601510'>
+            <name>user is new to this site and have to register as a new user</name>
+            <title>user is new to this site and have to register as a new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='environment-variable' name='BROWSER' value='CHROME'/>
+                <parameter kind='environment-variable' name='Platform' value='win32'/>
+            </parameters>
+            <steps>
+                <step start='1644224592939' status='passed' stop='1644224599434'>
+                    <name>Given user is on home page</name>
+                    <title>Given user is on home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644224599434' status='passed' stop='1644224601497'>
+                    <name>When user is on registeration page</name>
+                    <title>When user is on registeration page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644224601497' status='broken' stop='1644224601510'>
+                    <name>And user enters his contact information</name>
+                    <title>And user enters his contact information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "user enters his contact information" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "user enters his contact information" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Test\Desktop\NodeJs\Automation\features\sample\sample.feature):1:1
+                	at Scenario(user is new to this site and have to register as a new user):3:3
+                	at Step(user enters his contact information):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
