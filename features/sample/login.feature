@@ -12,4 +12,4 @@ Feature: The SwagLabs E commerce site
 
     Examples:
       | password | firstname | lastname | postalcode| message | 
-      | secret_sauce | smith | steve | 54789 | THANK YOU FOR YOUR ORDER | 
+      | secret_sauce | smith | steve | 54789 | THANK YOU FOR YOUR ORDER |  
