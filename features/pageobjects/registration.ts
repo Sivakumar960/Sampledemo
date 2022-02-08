@@ -6,5 +6,6 @@ class Registration{
     get Email(){return $(()=>document.getElementById('userName'))}
 }
 
+
 export default new Registration
 

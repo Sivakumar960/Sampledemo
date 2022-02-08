@@ -7,13 +7,14 @@ Given(/^User is on toolsqa page$/, async ()=> {
   });
 
 When(/^uer enters his details$/, async ()=> {
-    await console.log(browser.isLoading())
+    
     try {
-        await $('#firstName').waitForExist({timeout:5000})
+        //await $('#firstName').waitForExist({timeout:5000})
         await $('#firstName').setValue("Warner")
         await $('#lastName').setValue("David")
         await $('#userEmail').setValue("abcdef.xsaqwe@gmail.com")
-    } catch (error) {
+    }
+    catch (error) {
         throw error
     }
   });

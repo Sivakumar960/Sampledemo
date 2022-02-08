@@ -15,6 +15,7 @@ class CartPage {
 
     async giving_username(user_name:config.STANDARDUSER){
         await providetext(this.login_user,user_name)
+        
     }
 
     async giving_password(user_pass){
